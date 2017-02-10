@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_cadastro_usuario"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:gravity="center_vertical|fill_horizontal"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.danieloliveira.whatsapp.activity.CadastroUsuarioActivity">
+
+    <ImageView
+        android:id="@+id/logo_usuario_id"
+        android:layout_width="150dp"
+        android:layout_height="113dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/usuario" />
+
+    <EditText
+        android:id="@+id/name_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logo_usuario_id"
+        android:layout_marginTop="30dp"
+        android:hint="@string/digite_nome"
+        android:inputType="textPersonName"
+        android:textColor="@color/textColorPrimary" />
+
+    <EditText
+        android:id="@+id/email_text_usuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name_text"
+        android:layout_marginTop="15dp"
+        android:hint="@string/digite_email"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/textColorPrimary" />
+
+    <EditText
+        android:id="@+id/senha_usuario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/email_text_usuario"
+        android:layout_marginTop="15dp"
+        android:hint="@string/digite_senha"
+        android:inputType="textPassword"
+        android:textColor="@color/textColorPrimary" />
+
+    <Button
+        android:id="@+id/botao_cadastrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/senha_usuario"
+        android:layout_marginTop="10dp"
+        android:text="@string/cadastrar"
+        android:theme="@style/botaoPadrao" />
+</RelativeLayout>

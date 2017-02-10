@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "394349853566",
+    "firebase_url": "https://whatsapp-b64ff.firebaseio.com",
+    "project_id": "whatsapp-b64ff",
+    "storage_bucket": "whatsapp-b64ff.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:394349853566:android:e450f44f51b19048",
+        "android_client_info": {
+          "package_name": "com.example.danieloliveira.whatsapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "394349853566-r76077j6tvi66llunfh63sd7ua83ldg1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB3HJ2joB7w7F8LLY-qtDEipBMS1DB_t9U"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "394349853566-r76077j6tvi66llunfh63sd7ua83ldg1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
