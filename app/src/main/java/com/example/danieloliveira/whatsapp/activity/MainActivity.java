@@ -88,7 +88,7 @@ public class MainActivity extends AppCompatActivity {
     private void abrirCadastroContato() {
         AlertDialog.Builder alertDialog = new AlertDialog.Builder(this);
 
-        //Configs
+        //Configurações
         alertDialog.setTitle("Novo contato");
         alertDialog.setMessage("Email do usuário");
         alertDialog.setCancelable(false);
